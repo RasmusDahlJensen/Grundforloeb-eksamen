@@ -295,7 +295,7 @@ figure, h1, h2, h3, ul, li{
         }
 
         .footertext{
-            display: inline;
+            display: flex;
         }
 
         .footertext{
@@ -389,7 +389,6 @@ figure, h1, h2, h3, ul, li{
         .img17 { grid-area: 6 / 2 / 7 / 3; }
         .img18 { grid-area: 6 / 3 / 7 / 4; }
 
-}
 
 /* FOOTER */
 .footertext{
@@ -399,6 +398,9 @@ figure, h1, h2, h3, ul, li{
 .footertext li{
     margin: 2%;
 }
+
+    /* JEG FIKSEDE MIN FOOTER HER FORDI JEG AFLSUTTEDE MIN MEDIA QUERY FOR TIDLIGT */
+} 
 
 @media screen and (max-width:576px){
 
