@@ -193,7 +193,7 @@ figure, h1, h2, h3, ul, li{
             display: flex;
             gap: 1%;
         }
-        
+
         .formflex img{
             max-width: 100%;
             max-height: 100%;
@@ -336,7 +336,7 @@ figure, h1, h2, h3, ul, li{
         /* NAVBAR */
     .navflex{
         justify-content: flex-start;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
         /* MAINCONTENT */
@@ -478,5 +478,20 @@ figure, h1, h2, h3, ul, li{
         .formflex img{
             width: 100%;
         }
+
+        /* FOOTER */
+
+        .footercontainer{
+            flex-direction: column;
+        }
+
+        .footercontainer figure{
+            margin: 0;
+            width: 50%;
+            height: 50%;
+            align-self: center;
+        }
+
+
 
 }
