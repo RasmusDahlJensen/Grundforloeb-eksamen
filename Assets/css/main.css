@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* GLOBAL */
+body{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+p, a, h3, button{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+figure, h1, h2, h3, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* HEADER */
+.headercontainer{
+    background-color: #333333;
+    padding: 1% 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+
+.headerfit{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.headerflex{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    width: 100%;
+}
+
+.headercontainer img{
+    width: 100%;
+
+}
+
+.headercontainer figure{
+    width: 16%;
+}
+
+.headercontainer h1{
+    font-weight: 500;
+    color:  #ffffff;
+    font-size: 5rem;
+    margin: -3% 0 -4% 0;
+}
+
+.headercontainer h2{
+    font-weight: 300;
+    color:  #69c;
+    font-size: 4rem;
+    margin: 0;
+}
+
+    /* NAVBAR */
+
+    .navflex{
+        display: flex;
+        justify-content: flex-end;
+        gap: 2%;
+        margin: 2% 10% 0 0;
+    }
+
+    .navflex li{
+        list-style: none;
+    }
+
+    .navflex a{
+        text-decoration: none;
+        color: #cccccc;
+    }
+
+    .navflex li :hover{
+        color: #0066cc;
+    }
+
+    /* MAINCONTENT */
+    .maincontainer{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    article{
+        margin-top: 5%;
+    }
+
+    .maincontainer p{
+        color: #333333;
+        font-size: 1.2rem;
+    }
+
+    .maincontainer h3{
+        color: #6699cc;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .titleandbtn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .titleandbtn a{
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .titleandbtn a:hover{
+        color: #000000b1;
+    }
+
+    .gallerytitle{
+        font-weight: 900;
+    }
+
+    /* ARTICLES */
+    .articleflex{
+        display: flex;
+        gap: 2%;
+    }
+
+    .articleflex article{
+        width: 50%;
+    }
+
+    .articleflex img{
+        max-width: 500px;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    /* GALLERY */
+
+    .gallerysection {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0.5%;
+        grid-row-gap: 0.5%;
+        }
+        
+        .img1 { grid-area: 1 / 1 / 2 / 2; }
+        .img2 { grid-area: 1 / 2 / 2 / 3; }
+        .img3 { grid-area: 1 / 3 / 2 / 4; }
+        .img4 { grid-area: 1 / 4 / 2 / 5; }
+        .img5 { grid-area: 1 / 5 / 2 / 6; }
+        .img6 { grid-area: 1 / 6 / 2 / 7; }
+        .img7 { grid-area: 2 / 1 / 3 / 2; }
+        .img8 { grid-area: 2 / 2 / 3 / 3; }
+        .img9 { grid-area: 2 / 3 / 3 / 4; }
+        .img10 { grid-area: 2 / 4 / 3 / 5; }
+        .img11 { grid-area: 2 / 5 / 3 / 6; }
+        .img12 { grid-area: 2 / 6 / 3 / 7; }
+        .img13 { grid-area: 3 / 1 / 4 / 2; }
+        .img14 { grid-area: 3 / 2 / 4 / 3; }
+        .img15 { grid-area: 3 / 3 / 4 / 4; }
+        .img16 { grid-area: 3 / 4 / 4 / 5; }
+        .img17 { grid-area: 3 / 5 / 4 / 6; }
+        .img18 { grid-area: 3 / 6 / 4 / 7; }
+
+        .gallerysection img{
+            width: 100%;
+            transition: .1s;
+        }
+
+        .gallerysection img:hover{
+            transform: scale(1.1);
+        }
+
+        /* CONTACT */
+
+        .formdesc{
+            margin-top: 10%;
+        }
+
+        .formcontainer p{
+            font-style: italic;
+        }
+
+        .formflex{
+            display: flex;
+            gap: 1%;
+        }
+
+        .formflex figure{
+            max-width: 50%;
+            max-height: 50%;
+        }
+
+        .formflex img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        /* FORM */
+
+        .formarea{
+            width: 100%;
+        }
+
+        .formarea input{
+            width: 100%;
+            margin: 1% 0;
+            box-sizing: border-box;
+            padding: 2.5%;
+        }
+
+        textarea{
+            resize: none;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            margin-bottom: 2%;
+            padding: 1% 3%;
+        }
+
+        .textareacontainer{
+            height: 58%;
+        }
+
+        .buttonarea{
+            display: flex;
+            gap: 3%;
+        }
+
+        .buttonarea button{
+            padding: 1%;
+            width: 50%;
+            margin: 1% 0;
+            border-radius: 0;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        #btnSubmit{
+            background-color: #0066cc;
+
+        }
+
+        #btnReset{
+            background-color: #6699cc;
+        }
+
+
+        /* FORM ERROR */
+        .border-error{
+            border: 2px red solid;
+            background-color: #f78f8f47;
+        }
+
+        .border-success{
+            border: 2px green solid;
+        }
+
+        /* FOOTER */
+
+        footer{
+            margin-top: 2%;
+            padding: 2% 2% 0 2%;
+            background-color: #000000;
+        }
+
+        .footertext h3{
+            color: #6699cc;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+        .footertext a{
+            color: #cccccc;
+            font-size: 1.3rem;
+            text-decoration: none;
+            font-weight: 300;
+        }
+
+        .footertext a:hover{
+            color: #cccccca9;
+        }
+
+        .footertext li{
+            margin: 1% 0 5% 0
+        }
+        
+        .footercontainer{
+            width: 1000px;
+            margin: auto;
+            display: flex;
+        }
+
+        .footertext{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer figure{
+            width: 20%;
+            margin-left: 15%;
+        }
+
+        footer img{
+            width: 100%;
+        }
